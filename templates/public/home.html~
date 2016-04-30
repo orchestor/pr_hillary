@@ -1,0 +1,33 @@
+
+{% extends "layout.html" %}
+{% block content %}
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+
+  <h1>AI PR for Hillary</h1>
+
+  <p> Helping Hillary Clinton pitch journalists in a large scale by smart ALGORITHM.</p>
+  <p><a href="https://github.com/wdm0006/cookiecutter-flask" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+</div><!-- /.jumbotron -->
+
+<div class="body-content">
+  <div class="row">
+    <div class="col-lg-4">
+      <h2><i class="fa fa-code"></i> SPEED </h2>
+      <p> We love speed. </p>
+      <p><a class="btn btn-default" href="http://getbootstrap.com/">Official website &raquo;</a></p>
+    </div>
+    <div class="col-lg-4">
+      <h2><i class="fa fa-flask"></i> EFFIENT </h2>
+      <p>Redefine the PR efficient.</p>
+      <p><a href="http://www.sqlalchemy.org/" class="btn btn-default" href="#">Official website &raquo;</a></p>
+   </div>
+    <div class="col-lg-4">
+      <h2><i class="fa fa-edit"></i> Productive </h2>
+      <p> Eeverything is quantified by ALGORITHM. </p>
+      <p><a href="http://wtforms.simplecodes.com/" class="btn btn-default" href="#">Official website &raquo;</a></p>
+    </div>
+  </div><!-- /.row -->
+</div>
+{% endblock %}
+
